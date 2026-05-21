@@ -6,9 +6,9 @@
 
 Deep midnight darks and crisp lights for VS Code, tied together by a single emerald glow.
 
-![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-light-preview.png)
+![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-light-preview.png)
 
-![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-dark-preview.png)
+![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-dark-preview.png)
 
 </div>
 
@@ -26,35 +26,6 @@ Deep midnight darks and crisp lights for VS Code, tied together by a single emer
 | Accent          | `#00d2be`             | `#00b8a6` / `#006b5e` |
 | Accent (bright) | `#4dffd9`             | `#00d2be`             |
 | Accent (deep)   | `#006b5e`             | `#006b5e`             |
-
-## Installation
-
-### From the Marketplace
-
-1. Open the **Extensions** view (`Ctrl/Cmd + Shift + X`).
-2. Search for **Emerald Minimal Theme**.
-3. Click **Install**.
-
-### Selecting the theme
-
-Open the Command Palette (`Ctrl/Cmd + K` then `Ctrl/Cmd + T`) or run **Preferences: Color Theme**, then pick **Emerald Minimal Dark** or **Emerald Minimal Light**.
-
-## Development
-
-Clone the repository and open it in VS Code:
-
-```bash
-git clone https://github.com/thrsouza/emerald-theme.git
-cd emerald-theme
-code .
-```
-
-Press `F5` to launch an **Extension Development Host** window with the theme loaded, then select it via **Preferences: Color Theme**. Edits to the files in [`themes/`](./themes) are reflected live.
-
-The theme definitions live in:
-
-- [`themes/emerald-dark.json`](./themes/emerald-dark.json)
-- [`themes/emerald-light.json`](./themes/emerald-light.json)
 
 ## License
 
