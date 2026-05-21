@@ -1,0 +1,51 @@
+{
+    "name": "emerald-theme",
+    "displayName": "Emerald Theme",
+    "description": "Deep midnight darks and crisp light surfaces for VS Code, tied together by a single vivid emerald/teal glow — in dark and light variants.",
+    "version": "1.0.0",
+    "publisher": "thrsouza",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thrsouza/emerald-theme.git"
+    },
+    "homepage": "https://github.com/thrsouza/emerald-theme#readme",
+    "bugs": {
+        "url": "https://github.com/thrsouza/emerald-theme/issues"
+    },
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "color-theme",
+        "emerald",
+        "teal",
+        "green",
+        "dark",
+        "light",
+        "minimal"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Emerald Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/emerald-dark.json"
+            },
+            {
+                "label": "Emerald Light",
+                "uiTheme": "vs",
+                "path": "./themes/emerald-light.json"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#0c0c0c",
+        "theme": "dark"
+    }
+}
