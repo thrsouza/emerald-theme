@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/thrsouza/emerald-theme/master/icon.png" width="140" />
+<img src="https://raw.githubusercontent.com/thrsouza/emerald-minimal-theme/master/icon.png" width="140" />
 
 # Emerald Minimal Theme
 
@@ -12,15 +12,15 @@ Deep midnight darks and crisp lights for VS Code, tied together by a single emer
 
 ### Emerald Minimal Light
 
-Soft off-white surfaces (`#f3f5f4`) paired with deep slate text (`#101828`) and a rich emerald accent (`#00b8a6`) tuned for readable, low-glare contrast.
+Soft off-white surfaces (`#f3f5f4`) paired with deep slate text (`#101828`) and a rich emerald accent (`#007d6d`) tuned for readable, low-glare contrast.
 
-![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-light-preview.png)
+![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-minimal-theme/master/emerald-minimal-light-preview.png)
 
 ### Emerald Minimal Dark
 
 Deep midnight surfaces (`#111111`) with calm light-gray text (`#e5e5e5`) and a bright emerald accent (`#00d2be`) that glows across the UI without straining the eyes.
 
-![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-dark-preview.png)
+![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-minimal-theme/master/emerald-minimal-dark-preview.png)
 
 ## Highlights
 

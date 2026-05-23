@@ -5,6 +5,18 @@ All notable changes to the **Emerald Minimal Theme** extension are documented in
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-05-23
+
+### Added
+
+- **Semantic highlighting colors** (`semanticTokenColors`) for both variants. Language servers can now color classes, interfaces, enums, parameters, properties, decorators, default-library symbols and read-only variables precisely, instead of falling back to TextMate scopes — noticeably more accurate highlighting in TypeScript, Rust, Python and C#.
+- Theming for newer VS Code UI areas: inline chat / Copilot panels (`chat.*`, `inlineChat*`), notebooks (`notebook.*`, status icons), the multi-file diff editor, profile badge, banner, keybinding labels, toolbar/sash hover, testing icons & message decorations, debug toolbar, stack-frame highlight, debug console, the Settings editor, and the running-port icon.
+- Language-specific syntax refinements: distinct escape characters, regex internals (anchors, quantifiers, character classes, groups), Markdown blockquotes/strikethrough/heading marks/inline code, JSX/TSX components & tag punctuation, and CSS/SCSS/LESS class, id, property and element selectors.
+
+### Fixed
+
+- Raised comment contrast to meet WCAG AA (4.5:1): dark `#6b737c` (3.9:1) → `#7d8590` (5.1:1), light `#6e7781` (4.2:1) → `#656d76` (4.8:1). All other syntax colors were audited and already pass AA.
+
 ## [1.2.0] - 2026-05-22
 
 ### Changed
